@@ -21,6 +21,23 @@ body {
     background-color: linear-gradient(#ffffff, #dadada);
     display: grid;
     height: 100vh;
+    cursor: pointer;
+}
+
+#coracao {
+    position: absolute;
+    z-index: 1;
+    top: 46%;
+    left: 4%;
+    width: 70px;
+}
+
+#coracao1 {
+    position: absolute;
+    z-index: 1;
+    top: 82%;
+    left: 78%;
+    width: 45px;
 }
 
 .Final {
@@ -28,7 +45,7 @@ body {
     position: fixed;
     grid-template-rows: 115px auto 35px;
     grid-template-columns: 350px;
-    background-image: linear-gradient(#75d2f7, #abdeff);
+    background-color: #fad9e3;
     width: 350px;
     height: 515.312px;
     cursor: pointer;
@@ -46,7 +63,7 @@ body {
     position: fixed;
     grid-template-rows: 100px auto ;
     grid-template-columns: 350px;
-    background-image: linear-gradient(#75d2f7, #abdeff);
+    background-color: #fad9e3;
     width: 350px;
     height: 515.312px;
     cursor: pointer;
@@ -64,9 +81,9 @@ body {
     display: grid;
     position: relative;
     grid-template-rows: auto auto auto;
-    background-image: linear-gradient(#7dd7fa, #55cfff);
+    background-color: #FFCADB;
     width: 350px;
-    height: 515.312px;
+    height: 500px;
     cursor: pointer;
     justify-self: center;
     align-self: center;
@@ -74,6 +91,7 @@ body {
     box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 0 10px 40px rgba(0,0,0,0.3);
     z-index: 3;
     border-radius: 3px;
+    padding-bottom: 15px;
 }
 
 #Feliz {
@@ -83,7 +101,42 @@ body {
     height: 100%;
     justify-items: center;
     padding-bottom: 20px;
-    text-align: center;
+    font-size: 34.7px;
+    z-index: 2;
+    align-items: end;
+    justify-content: start;
+    padding-left: 20px;
+    grid-row: 1;
+}
+
+#cima {
+    position: absolute;
+    top: -16.6%;
+    left: 44.7%;
+    z-index: 1;
+    filter: drop-shadow(0 0 0.10px black);
+}
+
+#florCima {
+    position: absolute;
+    top: 1.6%;
+    left: 72.8%;
+    z-index: 2;
+}
+
+#baixo {
+    position: absolute;
+    top: 71.9%;
+    left: -22.9%;
+    z-index: 1;
+    filter: drop-shadow(0 0 .10px black);
+}
+
+#florBaixo {
+    position: absolute;
+    top: 89.2%;
+    left: 2.9%;
+    z-index: 2;
 }
 
 #Titulo {
@@ -107,24 +160,29 @@ body {
     height: 100%;
     justify-items: center;
     padding-bottom: 20px;
+    font-size: 13px;
+    align-items: end;
     text-align: center;
     color: #630000;
+    z-index: 2;
+    padding-left: 68px;
+    grid-row: 3;
 }
 
 .abrir {
-    animation: abrir 1s forwards;
+    animation: abrir 1s  forwards;
 }
 
 .fechar {
-    animation: fechar 1s forwards;
+    animation: fechar 1s  forwards;
 }
 
 .abrir2 {
-    animation: abrir2 1s forwards;
+    animation: abrir2 1s  forwards;
 }
 
 .fechar2 {
-    animation: fechar2 1s forwards;
+    animation: fechar2 1s  forwards;
 }
 
 
@@ -134,7 +192,7 @@ body {
     justify-self: center;
     align-self: center;
     grid-row: 2;
-
+    filter: drop-shadow(0 0 2px black);
 }
 
 #bandeira {
