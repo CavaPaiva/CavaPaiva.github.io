@@ -286,14 +286,13 @@ body {
     .Final {
         position: absolute;
     }
-
-    #mensagem1 {
-        font-size: 11.5px;
-    }
-
     
     .mensagem {
         font-size: 12px;
+    }
+
+    #mensagem1 {
+        font-size: 11px;
     }
 
     .Verso {
