@@ -17,6 +17,44 @@
     src: url('Inter.ttc');
 }
 
+.container {
+    display: grid;
+    justify-self: end;
+    justify-items: center;
+    align-items: center;
+    align-self: end;
+    grid-row: 2;
+    margin-right: 30px;
+    width: 135px;
+    height: auto;
+    border: solid black 2px;
+    padding: 5px;
+    padding-right: 8px;
+    padding-bottom: 7.5px;
+    left: 50%;
+    top: 48%;
+    height: 169px;
+    transform: rotate(10deg);
+    background-color: #9b663596;
+}
+
+.image{
+    position: relative;
+    top: -180%;
+    left: 3%;
+    width: 120px;
+    transform: rotate(-10deg);
+}
+
+
+.container img {
+    display: grid;
+    border: dashed black 2px;
+    max-width: 135px;
+    justify-self: center;
+    
+}
+
 body {
     background-color: linear-gradient(#ffffff, #dadada);
     display: grid;
@@ -43,7 +81,7 @@ body {
 .Final {
     display: grid;
     position: fixed;
-    grid-template-rows: 115px auto 35px;
+    grid-template-rows: auto auto 35px;
     grid-template-columns: 350px;
     background-color: #fad9e3;
     width: 350px;
